@@ -1,36 +1,43 @@
 {
   "sections": {
-    "image_banner": {
+    "hero_banner": {
       "type": "image-banner",
       "blocks": {
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Browse our latest products",
+            "heading": "BookLock Studio",
             "heading_size": "h0"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Professional studio spaces with automated smart lock access. Book your podcast room or white wall studio by the hour.</p>"
           }
         },
         "button": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify://collections/all",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "button_label_1": "Book Now",
+            "button_link_1": "/pages/book-now",
+            "button_style_secondary_1": false,
+            "button_label_2": "View Services",
+            "button_link_2": "/pages/services",
+            "button_style_secondary_2": true
           }
         }
       },
       "block_order": [
         "heading",
+        "text",
         "button"
       ],
       "settings": {
         "image_overlay_opacity": 40,
         "image_height": "large",
-        "desktop_content_position": "bottom-center",
-        "show_text_box": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
         "image_behavior": "none",
         "desktop_content_alignment": "center",
         "color_scheme": "scheme-3",
@@ -39,37 +46,140 @@
         "show_text_below": false
       }
     },
-    "featured_collection": {
-      "type": "featured-collection",
+    "services_overview": {
+      "type": "multicolumn",
+      "blocks": {
+        "service_1": {
+          "type": "column",
+          "settings": {
+            "title": "Podcast Room",
+            "text": "<p>Professional podcast recording space with high-quality equipment. Perfect for interviews, solo recordings, and content creation.</p>",
+            "link_label": "Learn More",
+            "link": "/pages/services#podcast-room"
+          }
+        },
+        "service_2": {
+          "type": "column",
+          "settings": {
+            "title": "White Wall Studios",
+            "text": "<p>Multiple white wall studio spaces for photography, video production, and content creation. Clean, professional backgrounds.</p>",
+            "link_label": "Learn More",
+            "link": "/pages/services#white-wall"
+          }
+        },
+        "service_3": {
+          "type": "column",
+          "settings": {
+            "title": "Coaching Services",
+            "text": "<p>Expert coaching for content creators. Beginner and advanced sessions available to help you grow your skills.</p>",
+            "link_label": "Learn More",
+            "link": "/pages/services#coaching"
+          }
+        }
+      },
+      "block_order": [
+        "service_1",
+        "service_2",
+        "service_3"
+      ],
       "settings": {
-        "title": "Featured products",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "all",
-        "products_to_show": 8,
-        "columns_desktop": 4,
-        "color_scheme": "scheme-1",
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "swipe_on_mobile": false,
+        "title": "Our Services",
+        "heading_size": "h1",
+        "image_width": "full",
         "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "quick_add": "none",
-        "columns_mobile": "2",
-        "padding_top": 44,
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "how_it_works": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "How It Works",
+            "heading_size": "h1"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<ol><li><strong>Purchase a Bundle:</strong> Choose from our credit bundles to get started</li><li><strong>Book Your Time:</strong> Use our booking system to reserve your studio space</li><li><strong>Receive Access Codes:</strong> Get automated smart lock codes via email</li><li><strong>Create Content:</strong> Access your space and start creating!</li></ol>"
+          }
+        },
+        "button": {
+          "type": "button",
+          "settings": {
+            "button_label": "View Full Guide",
+            "button_link": "/pages/how-it-works"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text",
+        "button"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "full_width": false,
+        "color_scheme": "scheme-2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "cta_section": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Ready to Get Started?",
+            "heading_size": "h2"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Book your studio space today and start creating professional content.</p>"
+          }
+        },
+        "button": {
+          "type": "button",
+          "settings": {
+            "button_label": "Book Now",
+            "button_link": "/pages/book-now"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text",
+        "button"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "full_width": false,
+        "color_scheme": "scheme-1",
+        "padding_top": 36,
         "padding_bottom": 36
       }
     }
   },
   "order": [
-    "image_banner",
-    "featured_collection"
+    "hero_banner",
+    "services_overview",
+    "how_it_works",
+    "cta_section"
   ]
 }

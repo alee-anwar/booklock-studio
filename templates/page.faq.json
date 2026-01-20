@@ -1,0 +1,102 @@
+{
+    "sections": {
+        "page_header": {
+            "type": "main-page",
+            "settings": {
+                "padding_top": 28,
+                "padding_bottom": 0
+            }
+        },
+        "faq_section": {
+            "type": "collapsible-content",
+            "blocks": {
+                "faq_1": {
+                    "type": "collapsible_row",
+                    "settings": {
+                        "heading": "How do I book a studio?",
+                        "icon": "none",
+                        "row_content": "<p>Simply visit our <a href=\"/pages/book-now\">Book Now</a> page and use the booking widget to select your preferred date, time, and studio space. You'll need to have credits in your account to complete a booking.</p>"
+                    }
+                },
+                "faq_2": {
+                    "type": "collapsible_row",
+                    "settings": {
+                        "heading": "How do I get credits?",
+                        "icon": "none",
+                        "row_content": "<p>Purchase a credit bundle from our <a href=\"/collections/bundles\">Bundles</a> collection. Once purchased, credits are automatically added to your account.</p>"
+                    }
+                },
+                "faq_3": {
+                    "type": "collapsible_row",
+                    "settings": {
+                        "heading": "How do access codes work?",
+                        "icon": "none",
+                        "row_content": "<p>After booking, you'll receive access codes via email. These codes work with our smart locks and are valid 10 minutes before your booking starts and remain active 10 minutes after your booking ends.</p>"
+                    }
+                },
+                "faq_4": {
+                    "type": "collapsible_row",
+                    "settings": {
+                        "heading": "Can I reschedule or cancel?",
+                        "icon": "none",
+                        "row_content": "<p>Yes! You can reschedule or cancel your booking. If you cancel, your credits will be restored to your account. If you reschedule, new access codes will be automatically generated.</p>"
+                    }
+                },
+                "faq_5": {
+                    "type": "collapsible_row",
+                    "settings": {
+                        "heading": "What if I book multiple rooms?",
+                        "icon": "none",
+                        "row_content": "<p>If you book multiple rooms on the same day, you'll receive a single front door code and separate room codes for each booking. All codes will be included in one email.</p>"
+                    }
+                },
+                "faq_6": {
+                    "type": "collapsible_row",
+                    "settings": {
+                        "heading": "Do credits expire?",
+                        "icon": "none",
+                        "row_content": "<p>No, credits never expire. You can use them whenever you need to book studio time.</p>"
+                    }
+                },
+                "faq_7": {
+                    "type": "collapsible_row",
+                    "settings": {
+                        "heading": "What equipment is included?",
+                        "icon": "none",
+                        "row_content": "<p>Each studio space includes professional equipment. The Podcast Room includes audio recording equipment, while White Wall Studios include professional lighting. For specific equipment lists, please contact us.</p>"
+                    }
+                },
+                "faq_8": {
+                    "type": "collapsible_row",
+                    "settings": {
+                        "heading": "Can I add-on services?",
+                        "icon": "none",
+                        "row_content": "<p>Yes! We offer add-on services including camera operators, photographers, on-site assistants, and post-production services. These can be arranged separately.</p>"
+                    }
+                }
+            },
+            "block_order": [
+                "faq_1",
+                "faq_2",
+                "faq_3",
+                "faq_4",
+                "faq_5",
+                "faq_6",
+                "faq_7",
+                "faq_8"
+            ],
+            "settings": {
+                "title": "Frequently Asked Questions",
+                "heading_size": "h1",
+                "layout": "none",
+                "color_scheme": "scheme-1",
+                "padding_top": 36,
+                "padding_bottom": 36
+            }
+        }
+    },
+    "order": [
+        "page_header",
+        "faq_section"
+    ]
+}

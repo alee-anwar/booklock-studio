@@ -1,0 +1,53 @@
+{
+    "sections": {
+        "page_header": {
+            "type": "main-page",
+            "settings": {
+                "padding_top": 28,
+                "padding_bottom": 0
+            }
+        },
+        "pricing_info": {
+            "type": "rich-text",
+            "blocks": {
+                "heading": {
+                    "type": "heading",
+                    "settings": {
+                        "heading": "Pricing & Bundles",
+                        "heading_size": "h1"
+                    }
+                },
+                "text": {
+                    "type": "text",
+                    "settings": {
+                        "text": "<p>We offer flexible credit bundles that allow you to book studio time at your convenience. Purchase a bundle, receive credits, and use them to book any available studio space.</p><h2>Bundle Options</h2><p>Our bundles are designed to give you the flexibility you need. Each bundle includes credits that can be used for:</p><ul><li>Podcast Room bookings</li><li>White Wall Studio bookings</li><li>Coaching sessions</li></ul><p>Browse our <a href=\"/collections/bundles\">bundle collection</a> to see current pricing and options.</p><h2>How Credits Work</h2><ul><li>1 credit = 1 hour of studio time</li><li>Credits never expire</li><li>Credits can be used for any available service</li><li>Unused credits remain in your account</li></ul>"
+                    }
+                },
+                "button": {
+                    "type": "button",
+                    "settings": {
+                        "button_label": "View Bundles",
+                        "button_link": "/collections/bundles"
+                    }
+                }
+            },
+            "block_order": [
+                "heading",
+                "text",
+                "button"
+            ],
+            "settings": {
+                "desktop_content_position": "center",
+                "content_alignment": "left",
+                "full_width": false,
+                "color_scheme": "scheme-1",
+                "padding_top": 36,
+                "padding_bottom": 36
+            }
+        }
+    },
+    "order": [
+        "page_header",
+        "pricing_info"
+    ]
+}

@@ -1,0 +1,88 @@
+{
+    "sections": {
+        "page_header": {
+            "type": "main-page",
+            "settings": {
+                "padding_top": 28,
+                "padding_bottom": 0
+            }
+        },
+        "services_list": {
+            "type": "multicolumn",
+            "blocks": {
+                "podcast_room": {
+                    "type": "column",
+                    "settings": {
+                        "title": "Podcast Room",
+                        "text": "<p>Professional podcast recording space equipped with high-quality microphones, soundproofing, and recording equipment. Perfect for interviews, solo recordings, and content creation.</p><p><strong>Features:</strong></p><ul><li>Professional audio equipment</li><li>Soundproof environment</li><li>Comfortable seating</li><li>Hourly booking available</li></ul>",
+                        "link_label": "Book Podcast Room",
+                        "link": "/pages/book-now"
+                    }
+                },
+                "white_wall_1": {
+                    "type": "column",
+                    "settings": {
+                        "title": "White Wall Studio 1",
+                        "text": "<p>Clean white wall studio space perfect for photography, video production, and content creation. Professional lighting and ample space for your creative projects.</p><p><strong>Features:</strong></p><ul><li>Professional lighting setup</li><li>Clean white background</li><li>Spacious area</li><li>Hourly booking available</li></ul>",
+                        "link_label": "Book Studio 1",
+                        "link": "/pages/book-now"
+                    }
+                },
+                "white_wall_2": {
+                    "type": "column",
+                    "settings": {
+                        "title": "White Wall Studio 2",
+                        "text": "<p>Another professional white wall studio space with similar features to Studio 1. Perfect for multiple projects or larger productions.</p><p><strong>Features:</strong></p><ul><li>Professional lighting setup</li><li>Clean white background</li><li>Spacious area</li><li>Hourly booking available</li></ul>",
+                        "link_label": "Book Studio 2",
+                        "link": "/pages/book-now"
+                    }
+                },
+                "white_wall_3": {
+                    "type": "column",
+                    "settings": {
+                        "title": "White Wall Studio 3",
+                        "text": "<p>Third white wall studio space offering flexibility for your production needs. Book multiple studios for larger projects.</p><p><strong>Features:</strong></p><ul><li>Professional lighting setup</li><li>Clean white background</li><li>Spacious area</li><li>Hourly booking available</li></ul>",
+                        "link_label": "Book Studio 3",
+                        "link": "/pages/book-now"
+                    }
+                },
+                "coaching": {
+                    "type": "column",
+                    "settings": {
+                        "title": "Coaching Services",
+                        "text": "<p>Expert coaching sessions for content creators. Available in beginner and advanced levels to help you grow your skills and improve your content.</p><p><strong>Options:</strong></p><ul><li>Beginner Coaching</li><li>Advanced Coaching</li><li>Personalized guidance</li><li>Skill development</li></ul>",
+                        "link_label": "Book Coaching",
+                        "link": "/pages/book-now"
+                    }
+                }
+            },
+            "block_order": [
+                "podcast_room",
+                "white_wall_1",
+                "white_wall_2",
+                "white_wall_3",
+                "coaching"
+            ],
+            "settings": {
+                "title": "Our Services",
+                "heading_size": "h1",
+                "image_width": "full",
+                "image_ratio": "adapt",
+                "columns_desktop": 3,
+                "column_alignment": "left",
+                "background_style": "none",
+                "button_label": "",
+                "button_link": "",
+                "color_scheme": "scheme-1",
+                "columns_mobile": "1",
+                "swipe_on_mobile": false,
+                "padding_top": 36,
+                "padding_bottom": 36
+            }
+        }
+    },
+    "order": [
+        "page_header",
+        "services_list"
+    ]
+}

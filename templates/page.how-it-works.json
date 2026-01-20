@@ -1,0 +1,101 @@
+{
+    "sections": {
+        "page_header": {
+            "type": "main-page",
+            "settings": {
+                "padding_top": 28,
+                "padding_bottom": 0
+            }
+        },
+        "steps_section": {
+            "type": "multicolumn",
+            "blocks": {
+                "step_1": {
+                    "type": "column",
+                    "settings": {
+                        "title": "Step 1: Purchase a Bundle",
+                        "text": "<p>Choose from our credit bundles to get started. Each bundle includes credits that you can use to book studio time.</p>"
+                    }
+                },
+                "step_2": {
+                    "type": "column",
+                    "settings": {
+                        "title": "Step 2: Book Your Time",
+                        "text": "<p>Use our booking system to reserve your studio space. Select your preferred date, time, and room.</p>"
+                    }
+                },
+                "step_3": {
+                    "type": "column",
+                    "settings": {
+                        "title": "Step 3: Receive Access Codes",
+                        "text": "<p>Get automated smart lock access codes via email. Codes are valid 10 minutes before your booking starts.</p>"
+                    }
+                },
+                "step_4": {
+                    "type": "column",
+                    "settings": {
+                        "title": "Step 4: Create Content",
+                        "text": "<p>Access your space using the provided codes and start creating professional content!</p>"
+                    }
+                }
+            },
+            "block_order": [
+                "step_1",
+                "step_2",
+                "step_3",
+                "step_4"
+            ],
+            "settings": {
+                "title": "How It Works",
+                "heading_size": "h1",
+                "image_width": "full",
+                "image_ratio": "adapt",
+                "columns_desktop": 4,
+                "column_alignment": "center",
+                "background_style": "none",
+                "button_label": "",
+                "button_link": "",
+                "color_scheme": "scheme-1",
+                "columns_mobile": "1",
+                "swipe_on_mobile": false,
+                "padding_top": 36,
+                "padding_bottom": 36
+            }
+        },
+        "additional_info": {
+            "type": "rich-text",
+            "blocks": {
+                "heading": {
+                    "type": "heading",
+                    "settings": {
+                        "heading": "Important Information",
+                        "heading_size": "h2"
+                    }
+                },
+                "text": {
+                    "type": "text",
+                    "settings": {
+                        "text": "<ul><li><strong>Access Codes:</strong> You'll receive access codes via email. Codes are valid 10 minutes before your booking starts and remain active 10 minutes after your booking ends.</li><li><strong>Credits:</strong> Credits are deducted when you confirm a booking. If you cancel, credits are restored to your account.</li><li><strong>Multiple Bookings:</strong> If you book multiple rooms on the same day, you'll receive a single front door code and separate room codes for each booking.</li><li><strong>Rescheduling:</strong> You can reschedule your booking, and new access codes will be automatically generated.</li></ul>"
+                    }
+                }
+            },
+            "block_order": [
+                "heading",
+                "text"
+            ],
+            "settings": {
+                "desktop_content_position": "center",
+                "content_alignment": "left",
+                "full_width": false,
+                "color_scheme": "scheme-2",
+                "padding_top": 36,
+                "padding_bottom": 36
+            }
+        }
+    },
+    "order": [
+        "page_header",
+        "steps_section",
+        "additional_info"
+    ]
+}

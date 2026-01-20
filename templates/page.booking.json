@@ -1,0 +1,24 @@
+{
+    "sections": {
+        "page_header": {
+            "type": "main-page",
+            "settings": {
+                "padding_top": 28,
+                "padding_bottom": 0
+            }
+        },
+        "booking_widget": {
+            "type": "custom-liquid",
+            "settings": {
+                "custom_liquid": "<div id=\"sbw_booking_widget\" style=\"min-height: 600px;\">\n  <script src=\"https://widget.simplybook.me/v2/widget/widget.js\"></script>\n  <script>\n    var widget = new SimplybookWidget({\n      \"widget_type\": \"iframe\",\n      \"url\": \"https://[your-company].simplybook.me/v2/\",\n      \"theme\": \"default\",\n      \"theme_settings\": {\n        \"timeline_show_end_time\": \"1\",\n        \"sb_base_color\": \"#e3f2fd\",\n        \"display_item_mode\": \"block\",\n        \"body_bg_color\": \"#f5f5f5\",\n        \"sb_company_label_color\": \"#ffffff\",\n        \"hide_img_mode\": \"0\",\n        \"sb_busy\": \"#dad2ce\",\n        \"sb_available\": \"#d3e0f1\"\n      },\n      \"timeline\": \"modern_week\",\n      \"datepicker\": \"top_calendar\",\n      \"is_rtl\": false,\n      \"app_config\": {\n        \"clear_session\": 0,\n        \"allow_switch_to_ada\": 0,\n        \"predefined\": {\n          \"service\": \"\"\n        }\n      }\n    });\n  </script>\n</div>\n<p style=\"text-align: center; margin-top: 20px; color: #666;\"><em>Note: Replace [your-company] with your SimplyBook.me company name once configured.</em></p>",
+                "color_scheme": "scheme-1",
+                "padding_top": 0,
+                "padding_bottom": 52
+            }
+        }
+    },
+    "order": [
+        "page_header",
+        "booking_widget"
+    ]
+}

@@ -86,7 +86,7 @@
                 "faq_8"
             ],
             "settings": {
-                "title": "Frequently Asked Questions",
+                "heading": "Frequently Asked Questions",
                 "heading_size": "h1",
                 "layout": "none",
                 "color_scheme": "scheme-1",
